@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration debug="true">
+
+    <include resource="logback/logback-base.xml" />
+    <!-- 日志输出级别 -->
+    <root level="INFO">
+        <!-- 错误日志 -->
+        <appender-ref ref="errorLog"/>
+        <!-- 消息日志 -->
+        <appender-ref ref="infoLog"/>
+    </root>
+
+</configuration>
